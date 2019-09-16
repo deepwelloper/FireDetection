@@ -12,7 +12,7 @@ std::vector<byte> matToBytes(cv::Mat image)
 }
 int main()
 {
-  //file = "test.mp4" // 영상 경로입력. 웹캠이용시 주석
+	//file = "test.mp4" // 영상 경로입력. 웹캠이용시 주석
 	//cv::VideoCapture video(file);
 
 	cv::VideoCapture video(0);// 웹캠일시 주석 해제
